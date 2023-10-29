@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+.wrapper{
+    width:100vw;
+}
+.navv-section{
+    background-color:rgb(32, 32, 43);
+    width:100%;
+    padding:30px;
+}
+
+
+.top-level-div{
+    width: 1080px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+}
+.nav-logo{
+    width:125px;
+    height:30px;
+}
+.link{
+    display:flex;
+    gap: 10px;
+
+}
+.link-nav{
+    position:relative;
+}
+.nav-link-content{
+    color:white;
+}
+.nav-underline{
+    color:rgb(181, 225, 240);
+    width:1px;
+    height:4px;
+    position:absolute;
+    bottom:0;
+    z-index:10;
+}
+
+.link{
+    display:flex;
+    flex-direction: row;
+    gap:2px;
+}
+
